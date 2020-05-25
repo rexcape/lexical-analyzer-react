@@ -1,14 +1,23 @@
 {
-  "name": "lexical-analyzer",
-  "version": "0.1.0",
-  "private": true,
+  "name": "lexical-analyzer-react",
+  "version": "0.9.0",
+  "private": false,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/prismjs": "^1.16.1",
+    "bootstrap": "^4.5.0",
+    "codeflask": "^1.4.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.20.0",
     "react": "^16.13.1",
+    "react-codeflask": "^0.0.5",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "typescript": "^3.9.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "用 react 实现的简易词法分析器",
+  "main": "index.js",
+  "author": "mazixiang <mazixiang2012@gmail.com>",
+  "license": "MIT"
 }

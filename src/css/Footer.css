@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat&display=swap');
+
+.footer {
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-family: 'Balsamiq Sans';
+  bottom: 15px;
+  right: 15px;
+  user-select: none;
+}
