@@ -4,9 +4,9 @@
 
 使用 react 构建的简易的词法分析器
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 下面是 react 生成的官方文档
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
