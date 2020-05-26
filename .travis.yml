@@ -6,3 +6,5 @@ node_js:
 install: yarn
 
 cache: yarn
+
+script: yarn build
