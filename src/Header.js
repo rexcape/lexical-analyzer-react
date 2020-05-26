@@ -5,7 +5,7 @@ import "./css/Header.css";
 export default function Header() {
   return (
     <div className="header">
-      <i className="fas fa-dragon"></i>
+      <i className="fas fa-anchor"></i>
       <h1>词法分析器</h1>
     </div>
   );

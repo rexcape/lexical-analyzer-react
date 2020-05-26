@@ -2,11 +2,13 @@
 
 [![Build Status](https://travis-ci.com/mazixiang/lexical-analyzer-react.svg?branch=master)](https://travis-ci.com/mazixiang/lexical-analyzer-react)
 
-使用 react 构建的简易的词法分析器，演示效果如下
+编译原理的期末项目实践，使用 `react` 构建的简易的词法分析器，演示效果如下
 
-![demo](./demo.jpg)
+![demo](demo.gif)
 
-想借此机会熟悉一下 `CI`（持续集成）
+想借此机会熟悉一下 `Travis CI`，这个运行默认的 `yarn test` 或者 `npm test` 是不行的，会出现 `TypeError`，说我的 `CodeFlaskReact` 中的 `CSS.support` 不是一个函数（不知道原因），所以我把 `script` 设置为 `npm build` 或者 `yarn build`，构建可以通过。
+
+目前计划将这个集成到 `Electron` 框架中，来实现真正的应用程序
 
 下面是 react 生成的官方文档
 
