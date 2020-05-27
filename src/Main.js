@@ -9,7 +9,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "/* 👆上传文件，或者输入一些代码... */",
+      text: "/* 👆 上传文件，或者输入一些代码... */",
       result: [],
     };
     this.handleFileChange = this.handleFileChange.bind(this);
@@ -19,12 +19,14 @@ class Main extends React.Component {
   }
 
   handleFileChange() {
-    let file = document.getElementById("file-input").files[0];
+    let fileInput = document.getElementById("file-input");
+    let file = fileInput.files[0];
     let reader = new FileReader();
     reader.addEventListener("loadend", () => {
       this.setState({
         text: reader.result,
       });
+      fileInput.value = "";
     });
     reader.readAsText(file);
   }
