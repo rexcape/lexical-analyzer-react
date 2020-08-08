@@ -12,7 +12,7 @@
     "codeflask": "^1.4.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "prismjs": "^1.20.0",
+    "prismjs": "^1.21.0",
     "react": "^16.13.1",
     "react-codeflask": "^0.0.5",
     "react-dom": "^16.13.1",
